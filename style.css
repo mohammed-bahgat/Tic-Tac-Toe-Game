@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    background-color: #2D4059;
+  }
+  body {
+    font-family: 'Indie Flower', cursive;
+  }
+  .game-header {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+     color: #FFD460;
+    ;
+  }
+
+  .board {
+    width: 306px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(3,100px) / repeat(3,100px);
+    grid-gap: 3px;
+    background-color: black;
+   
+  }
+  .field {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #2D4059;
+    color: #FFD460;
+    border: #FFD460 2px solid;
+  }
